@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\bin\Debug\netstandard2.0\UserApp.deps.json
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\bin\Debug\netstandard2.0\UserApp.dll
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\bin\Debug\netstandard2.0\ref\UserApp.dll
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\bin\Debug\netstandard2.0\UserApp.pdb
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\Views\UserDetailsPage.xaml.g.cs
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\Views\UserPage.xaml.g.cs
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.AssemblyInfo.cs
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.dll
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\ref\UserApp.dll
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.pdb
+C:\Users\User\source\repos\UserApp\UserApp\UserApp\obj\Debug\netstandard2.0\UserApp.csproj.AssemblyReference.cache

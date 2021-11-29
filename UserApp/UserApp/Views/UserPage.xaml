@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:UserApp.ViewModels"
+             x:Class="UserApp.Views.UserPage">
+
+    <ContentPage.BindingContext>
+        <vm:UserListViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="LightGray" >
+                <CollectionView ItemsSource="{Binding Users}" Margin="10" >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Margin="0,10,0,10">
+                                <Frame HasShadow="True"
+                                CornerRadius="5"
+                                BorderColor="Black">
+
+                                <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer  Command="{Binding Source={RelativeSource AncestorType={x:Type vm:UserListViewModel}}, Path= SelectCommand}"
+                                                               CommandParameter="{Binding .}"/>
+                                </Frame.GestureRecognizers>
+
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="5"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Image 
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        Source="{Binding imageUrl}"
+                                        Aspect="AspectFill"
+                                        HeightRequest="60"
+                                        WidthRequest="60" />
+
+                                        <Label 
+                                        Grid.Row="0"
+                                        Grid.Column="2"
+                                        Text="{Binding name}"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="StartAndExpand"/>
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
